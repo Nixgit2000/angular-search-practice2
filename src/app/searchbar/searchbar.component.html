@@ -1,0 +1,22 @@
+<div id="grid1">
+<button id="btn1">ACTION</button>
+<button id="btn2">SCIENCE-<br>FICTION</button>
+<button id="btn3">FANTASY</button>
+<button id="btn4">COMIC<br>BOOK</button>
+<button id="btn5">DRAMA</button>
+<button id="btn6">CRITICALLY<br>ACCLAIMED</button>
+<input id="input1" placeholder="Search by Title, Franchise, Actor..." style="caret-color: black;" [(ngModel)]="searchText">
+</div>
+
+<div style="display: flex; justify-content: center; align-items: left;">
+
+<div id="card" style="display: flex; justify-content: center; align-items: left;">
+<ul style="display: flex; justify-content: center; align-items: left;list-style: none;" id="component0" *ngFor="let enteredText of data | search: searchText">
+    <div  id="card-container">
+    <li  id="component1"><img src="{{enteredText.pic}}" alt=""></li>
+    <li id="component2">{{enteredText.title}}</li>
+    <li id="component3">{{enteredText.title2}}</li></div>
+</ul>
+</div>
+
+</div>
