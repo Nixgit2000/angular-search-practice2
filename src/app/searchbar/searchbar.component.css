@@ -37,14 +37,14 @@
 [id*="component3"] {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif9;
     font-size:1.5vh;
-    color: grey;
+    color: rgb(189,189,189);
 }
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 4px) and (max-width: 767px) {
     #grid1 {
         display: grid;
         grid-template-columns: repeat(22, 1fr);
         height: 5vh;
-        color: grey;
+        color: rgb(189,189,189);
         transition: .1s;
     }
     #card-container{
@@ -106,8 +106,8 @@
     #component0 {
         display: block;
         margin: 1vh;
-        border: 1px solid grey;
-         box-shadow: 3px 3px rgb(210, 210, 210);
+        border: 1px solid rgb(189,189,189);border-radius: 2%;
+         box-shadow: 3px 3px rgb(189, 189, 189);
         overflow: hidden;
         width: 40vw;
         height: 30vh;
@@ -116,8 +116,8 @@
     #component01 {
         display: block;
         margin: 1vh;
-        border: 1px solid grey;
-         box-shadow: 3px 3px rgb(210, 210, 210);
+        border: 1px solid rgb(189,189,189);border-radius: 2%;
+         box-shadow: 3px 3px rgb(189, 189, 189);
         overflow: hidden;
         width: 40vw;
         height: 30vh;
@@ -125,8 +125,8 @@
     #component02 {
         display: block;
         margin: 1vh;
-        border: 1px solid grey;
-         box-shadow: 3px 3px rgb(210, 210, 210);
+        border: 1px solid rgb(189,189,189);border-radius: 2%;
+         box-shadow: 3px 3px rgb(189, 189, 189);
         overflow: hidden;
         width: 40vw;
         height: 30vh;
@@ -134,8 +134,8 @@
     #component03 {
         display: block;
         margin: 1vh;
-        border: 1px solid grey;
-         box-shadow: 3px 3px rgb(210, 210, 210);
+        border: 1px solid rgb(189,189,189);border-radius: 2%;
+         box-shadow: 3px 3px rgb(189, 189, 189);
         overflow: hidden;
         width: 40vw;
         height: 30vh;
@@ -143,8 +143,8 @@
     #component04 {
         display: block;
         margin: 1vh;
-        border: 1px solid grey;
-         box-shadow: 3px 3px rgb(210, 210, 210);
+        border: 1px solid rgb(189,189,189);border-radius: 2%;
+         box-shadow: 3px 3px rgb(189, 189, 189);
         overflow: hidden;
         width: 40vw;
         height: 30vh;
@@ -152,8 +152,8 @@
     #component05 {
         display: block;
         margin: 1vh;
-        border: 1px solid grey;
-         box-shadow: 3px 3px rgb(210, 210, 210);
+        border: 1px solid rgb(189,189,189);border-radius: 2%;
+         box-shadow: 3px 3px rgb(189, 189, 189);
         overflow: hidden;
         width: 40vw;
         height: 30vh;
@@ -161,8 +161,8 @@
     #component06 {
         display: block;
         margin: 1vh;
-        border: 1px solid grey;
-         box-shadow: 3px 3px rgb(210, 210, 210);
+        border: 1px solid rgb(189,189,189); border-radius: 2%;
+         box-shadow: 3px 3px rgb(189, 189, 189);
         overflow: hidden;
         width: 40vw;
         height: 30vh;
@@ -191,49 +191,49 @@
         
     }
     #btn0 {
-        color: grey;
+        color:grey;
         grid-column: 1 /span 2;
         font-size: 1.5vw;
         transition: .1s;
     }
     #btn1 {
-        color: grey;
+        color:grey;
         grid-column: 3 /span 2;
         font-size: 1.5vw;
         transition: .1s;
     }
     #btn2 {
-        color: grey;
+        color:grey;
         grid-column: 5 /span 2;
         font-size: 1.5vw;
         transition: .1s;
     }
     #btn3 {
-        color: grey;
+        color:grey;
         grid-column: 7 /span 2;
         font-size: 1.5vw;
         transition: .1s;
     }
     #btn4 {
-        color: grey;
+        color:grey;
         grid-column: 9 /span 2;
         font-size: 1.5vw;
         transition: .1s;
     }
     #btn5 {
-        color: grey;
+        color:grey;
         grid-column: 11 /span 2;
         font-size: 1.5vw;
         transition: .1s;
     }
     #btn6 {
-        color: grey;
+        color:grey;
         grid-column: 13 /span 2;
         font-size: 1.5vw;
         transition: .1s;
     }
     #input1 {
-        color: grey;
+        color:grey;
         grid-column: 15 / span 8;
         font-size: .9vw;
         padding-left: 1vw;
@@ -248,7 +248,7 @@
         display: grid;
         grid-template-columns: repeat(22, 1fr);
         height: 5vh;
-        color: grey;
+        color: rgb(189,189,189);
         transition: .1s;
     }
     #card-container{
@@ -310,8 +310,8 @@
     #component0 {
         display: block;
         margin: 1vh;
-        border: 1px solid grey;
-         box-shadow: 3px 3px rgb(210, 210, 210);
+        border: 1px solid rgb(189,189,189);border-radius: 2%;
+         box-shadow: 3px 3px rgb(189, 189, 189);
         overflow: hidden;
         width: 30vw;
         height: 30vh;
@@ -320,8 +320,8 @@
     #component01 {
         display: block;
         margin: 1vh;
-        border: 1px solid grey;
-         box-shadow: 3px 3px rgb(210, 210, 210);
+        border: 1px solid rgb(189,189,189);border-radius: 2%;
+         box-shadow: 3px 3px rgb(189, 189, 189);
         overflow: hidden;
         width: 30vw;
         height: 30vh;
@@ -329,8 +329,8 @@
     #component02 {
         display: block;
         margin: 1vh;
-        border: 1px solid grey;
-         box-shadow: 3px 3px rgb(210, 210, 210);
+        border: 1px solid rgb(189,189,189);border-radius: 2%;
+         box-shadow: 3px 3px rgb(189, 189, 189);
         overflow: hidden;
         width: 30vw;
         height: 30vh;
@@ -338,8 +338,8 @@
     #component03 {
         display: block;
         margin: 1vh;
-        border: 1px solid grey;
-         box-shadow: 3px 3px rgb(210, 210, 210);
+        border: 1px solid rgb(189,189,189);border-radius: 2%;
+         box-shadow: 3px 3px rgb(189, 189, 189);
         overflow: hidden;
         width:30vw;
         height: 30vh;
@@ -347,8 +347,8 @@
     #component04 {
         display: block;
         margin: 1vh;
-        border: 1px solid grey;
-         box-shadow: 3px 3px rgb(210, 210, 210);
+        border: 1px solid rgb(189,189,189);border-radius: 2%;
+         box-shadow: 3px 3px rgb(189, 189, 189);
         overflow: hidden;
         width: 30vw;
         height: 30vh;
@@ -356,8 +356,8 @@
     #component05 {
         display: block;
         margin: 1vh;
-        border: 1px solid grey;
-         box-shadow: 3px 3px rgb(210, 210, 210);
+        border: 1px solid rgb(189,189,189);border-radius: 2%;
+         box-shadow: 3px 3px rgb(189, 189, 189);
         overflow: hidden;
         width: 30vw;
         height: 30vh;
@@ -365,8 +365,8 @@
     #component06 {
         display: block;
         margin: 1vh;
-        border: 1px solid grey;
-         box-shadow: 3px 3px rgb(210, 210, 210);
+        border: 1px solid rgb(189,189,189);border-radius: 2%;
+         box-shadow: 3px 3px rgb(189, 189, 189);
         overflow: hidden;
         width: 30vw;
         height: 30vh;
@@ -395,49 +395,49 @@
         
     }
     #btn0 {
-        color: grey;
+        color:grey;
         grid-column: 1 /span 2;
         font-size: 1vw;
         transition: .1s;
     }
     #btn1 {
-        color: grey;
+        color:grey;
         grid-column: 3 /span 2;
         font-size: 1vw;
         transition: .1s;
     }
     #btn2 {
-        color: grey;
+        color:grey;
         grid-column: 5 /span 2;
         font-size: 1vw;
         transition: .1s;
     }
     #btn3 {
-        color: grey;
+        color:grey;
         grid-column: 7 /span 2;
         font-size: 1vw;
         transition: .1s;
     }
     #btn4 {
-        color: grey;
+        color:grey;
         grid-column: 9 /span 2;
         font-size: 1vw;
         transition: .1s;
     }
     #btn5 {
-        color: grey;
+        color:grey;
         grid-column: 11 /span 2;
         font-size: 1vw;
         transition: .1s;
     }
     #btn6 {
-        color: grey;
+        color:grey;
         grid-column: 13 /span 2;
         font-size: 1vw;
         transition: .1s;
     }
     #input1 {
-        color: grey;
+        color:grey;
         grid-column: 15 / span 8;
         font-size: .9vw;
         padding-left: 1vw;
@@ -452,7 +452,7 @@
         display: grid;
         grid-template-columns: repeat(22, 1fr);
         height: 5vh;
-        color: grey;
+        color: rgb(189,189,189);
         transition: .1s;
     }
     #card-container{
@@ -514,8 +514,8 @@
     #component0 {
         display: block;
         margin: 1vh;
-        border: 1px solid grey;
-         box-shadow: 3px 3px rgb(210, 210, 210);
+        border: 1px solid rgb(189,189,189);border-radius: 2%;
+         box-shadow: 3px 3px rgb(189, 189, 189);
         overflow: hidden;
         width: 18vw;
         height: 30vh;
@@ -524,8 +524,8 @@
     #component01 {
         display: block;
         margin: 1vh;
-        border: 1px solid grey;
-         box-shadow: 3px 3px rgb(210, 210, 210);
+        border: 1px solid rgb(189,189,189);border-radius: 2%;
+         box-shadow: 3px 3px rgb(189, 189, 189);
         overflow: hidden;
         width: 18vw;
         height: 30vh;
@@ -533,8 +533,8 @@
     #component02 {
         display: block;
         margin: 1vh;
-        border: 1px solid grey;
-         box-shadow: 3px 3px rgb(210, 210, 210);
+        border: 1px solid rgb(189,189,189);border-radius: 2%;
+         box-shadow: 3px 3px rgb(189, 189, 189);
         overflow: hidden;
         width: 18vw;
         height: 30vh;
@@ -542,8 +542,8 @@
     #component03 {
         display: block;
         margin: 1vh;
-        border: 1px solid grey;
-         box-shadow: 3px 3px rgb(210, 210, 210);
+        border: 1px solid rgb(189,189,189);border-radius: 2%;
+         box-shadow: 3px 3px rgb(189, 189, 189);
         overflow: hidden;
         width: 18vw;
         height: 30vh;
@@ -551,8 +551,8 @@
     #component04 {
         display: block;
         margin: 1vh;
-        border: 1px solid grey;
-         box-shadow: 3px 3px rgb(210, 210, 210);
+        border: 1px solid rgb(189,189,189);border-radius: 2%;
+         box-shadow: 3px 3px rgb(189, 189, 189);
         overflow: hidden;
         width: 18vw;
         height: 30vh;
@@ -560,8 +560,8 @@
     #component05 {
         display: block;
         margin: 1vh;
-        border: 1px solid grey;
-         box-shadow: 3px 3px rgb(210, 210, 210);
+        border: 1px solid rgb(189,189,189);border-radius: 2%;
+         box-shadow: 3px 3px rgb(189, 189, 189);
         overflow: hidden;
         width: 18vw;
         height: 30vh;
@@ -569,8 +569,8 @@
     #component06 {
         display: block;
         margin: 1vh;
-        border: 1px solid grey;
-         box-shadow: 3px 3px rgb(210, 210, 210);
+        border: 1px solid rgb(189,189,189);border-radius: 2%;
+         box-shadow: 3px 3px rgb(189, 189, 189);
         overflow: hidden;
         width: 18vw;
         height: 30vh;
@@ -599,49 +599,49 @@
         
     }
     #btn0 {
-        color: grey;
+        color:grey;
         grid-column: 1 /span 2;
         font-size: 1vw;
         transition: .1s;
     }
     #btn1 {
-        color: grey;
+        color:grey;
         grid-column: 3 /span 2;
         font-size: 1vw;
         transition: .1s;
     }
     #btn2 {
-        color: grey;
+        color:grey;
         grid-column: 5 /span 2;
         font-size: 1vw;
         transition: .1s;
     }
     #btn3 {
-        color: grey;
+        color:grey;
         grid-column: 7 /span 2;
         font-size: 1vw;
         transition: .1s;
     }
     #btn4 {
-        color: grey;
+        color:grey;
         grid-column: 9 /span 2;
         font-size: 1vw;
         transition: .1s;
     }
     #btn5 {
-        color: grey;
+        color:grey;
         grid-column: 11 /span 2;
         font-size: 1vw;
         transition: .1s;
     }
     #btn6 {
-        color: grey;
+        color:grey;
         grid-column: 13 /span 2;
         font-size: 1vw;
         transition: .1s;
     }
     #input1 {
-        color: grey;
+        color:grey;
         grid-column: 15 / span 8;
         font-size: .9vw;
         padding-left: 1vw;
@@ -655,7 +655,7 @@
         display: grid;
         grid-template-columns: repeat(22, 1fr);
         height: 5vh;
-        color: grey;
+        color: rgb(189,189,189);
         transition: .1s;
     }
     #card-container{
@@ -717,8 +717,8 @@
     #component0 {
         display: block;
         margin: 1vh;
-        border: 1px solid grey;
-         box-shadow: 3px 3px rgb(210, 210, 210);
+        border: 1px solid rgb(189,189,189);border-radius: 2%;
+         box-shadow: 3px 3px rgb(189, 189, 189);
         overflow: hidden;
         width: 18vw;
         height: 30vh;
@@ -727,8 +727,8 @@
     #component01 {
         display: block;
         margin: 1vh;
-        border: 1px solid grey;
-         box-shadow: 3px 3px rgb(210, 210, 210);
+        border: 1px solid rgb(189,189,189);border-radius: 2%;
+         box-shadow: 3px 3px rgb(189, 189, 189);
         overflow: hidden;
         width: 18vw;
         height: 30vh;
@@ -736,8 +736,8 @@
     #component02 {
         display: block;
         margin: 1vh;
-        border: 1px solid grey;
-         box-shadow: 3px 3px rgb(210, 210, 210);
+        border: 1px solid rgb(189,189,189);border-radius: 2%;
+         box-shadow: 3px 3px rgb(189, 189, 189);
         overflow: hidden;
         width: 18vw;
         height: 30vh;
@@ -745,8 +745,8 @@
     #component03 {
         display: block;
         margin: 1vh;
-        border: 1px solid grey;
-         box-shadow: 3px 3px rgb(210, 210, 210);
+        border: 1px solid rgb(189,189,189);border-radius: 2%;
+         box-shadow: 3px 3px rgb(189, 189, 189);
         overflow: hidden;
         width: 18vw;
         height: 30vh;
@@ -754,8 +754,8 @@
     #component04 {
         display: block;
         margin: 1vh;
-        border: 1px solid grey;
-         box-shadow: 3px 3px rgb(210, 210, 210);
+        border: 1px solid rgb(189,189,189);border-radius: 2%;
+         box-shadow: 3px 3px rgb(189, 189, 189);
         overflow: hidden;
         width: 18vw;
         height: 30vh;
@@ -763,8 +763,8 @@
     #component05 {
         display: block;
         margin: 1vh;
-        border: 1px solid grey;
-         box-shadow: 3px 3px rgb(210, 210, 210);
+        border: 1px solid rgb(189,189,189);border-radius: 2%;
+         box-shadow: 3px 3px rgb(189, 189, 189);
         overflow: hidden;
         width: 18vw;
         height: 30vh;
@@ -772,8 +772,8 @@
     #component06 {
         display: block;
         margin: 1vh;
-        border: 1px solid grey;
-         box-shadow: 3px 3px rgb(210, 210, 210);
+        border: 1px solid rgb(189,189,189);border-radius: 2%;
+         box-shadow: 3px 3px rgb(189, 189, 189);
         overflow: hidden;
         width: 18vw;
         height: 30vh;
@@ -802,49 +802,49 @@
         
     }
     #btn0 {
-        color: grey;
+        color:grey;
         grid-column: 1 /span 2;
         font-size: 1vw;
         transition: .1s;
     }
     #btn1 {
-        color: grey;
+        color:grey;
         grid-column:3 /span 2;
         font-size: 1vw;
         transition: .1s;
     }
     #btn2 {
-        color: grey;
+        color:grey;
         grid-column: 5 /span 2;
         font-size: 1vw;
         transition: .1s;
     }
     #btn3 {
-        color: grey;
+        color:grey;
         grid-column: 7 /span 2;
         font-size: 1vw;
         transition: .1s;
     }
     #btn4 {
-        color: grey;
+        color:grey;
         grid-column: 9 /span 2;
         font-size: 1vw;
         transition: .1s;
     }
     #btn5 {
-        color: grey;
+        color:grey;
         grid-column: 11 /span 2;
         font-size: 1vw;
         transition: .1s;
     }
     #btn6 {
-        color: grey;
+        color:grey;
         grid-column: 13 /span 2;
         font-size: 1vw;
         transition: .1s;
     }
     #input1 {
-        color: grey;
+        color:grey;
         grid-column: 15 / span 8;
         font-size: .9vw;
         padding-left: 1vw;

@@ -1,5 +1,5 @@
 <div id="grid1">
-<button (click)="FilterAll()" id="btn0">ALL</button>
+<button  (click)="FilterAll()" id="btn0">ALL</button>
 <button (click)="FilterFantasy()" id="btn1">FANTASY</button>
 <button (click)="FilterScienceFiction()" id="btn2">SCIENCE-<br>FICTION</button>
 <button (click)="FilterAction()" id="btn3">ACTION</button>
@@ -9,13 +9,14 @@
 <input id="input1" placeholder="Search by Title, Franchise, Actor..." style="caret-color: black;" [(ngModel)]="searchText">
 </div>
 
-<img src="../../assets/ASSETS/Nixflix2.png" style="position: fixed; left: 77.5vw; top: 79vh; height: 6vw; width: 15vw;">
+<img src="../../assets/ASSETS/Nixflix2.png" style="position: fixed; left: 77.5vw; top: 79vh; height: 4.5vw; width: 12vw;">
 
 <div *ngIf="!isDisplayed" id="card" style="display: flex; justify-content: center; align-items: left;">
 <ul id="component0" style="display: flex; justify-content: center; align-items: left;list-style: none;"  *ngFor="let enteredText of fantasy | search: searchText">
 
 <div  id="card-container">
-<li  id="component1"><img src="{{enteredText.pic}}" alt=""></li>
+
+    <a href="{{enteredText.url}}"><li  id="component1"><img src="{{enteredText.pic}}" alt=""></li></a>
 <li id="component2">{{enteredText.title}}</li>
 <li id="component3">{{enteredText.title2}}</li></div>
 </ul>
@@ -24,7 +25,7 @@
 <div *ngIf="!isDisplayed2" id="card1" style="display: flex; justify-content: center; align-items: center;">
 <ul id="component01" style="display: flex; justify-content: center; align-items: left;list-style: none;"  *ngFor="let enteredText of sciFi | search: searchText">
 <div  id="card-container">
-<li  id="component1"><img src="{{enteredText.pic}}" alt=""></li>
+    <a href="{{enteredText.url}}"><li  id="component1"><img src="{{enteredText.pic}}" alt=""></li></a>
 <li id="component2">{{enteredText.title}}</li>
 <li id="component3">{{enteredText.title2}}</li></div>
 </ul>
@@ -34,7 +35,7 @@
 <div *ngIf="!isDisplayed3" id="card2" style="display: flex; justify-content: center; align-items: center;">
 <ul id="component02" style="display: flex; justify-content: center; align-items: left;list-style: none;"  *ngFor="let enteredText of action | search: searchText">
 <div  id="card-container">
-<li  id="component1"><img src="{{enteredText.pic}}" alt=""></li>
+    <a href="{{enteredText.url}}"><li  id="component1"><img src="{{enteredText.pic}}" alt=""></li></a>
 <li id="component2">{{enteredText.title}}</li>
 <li id="component3">{{enteredText.title2}}</li></div>
 </ul>
@@ -42,7 +43,7 @@
 <div *ngIf="!isDisplayed4" id="card3" style="display: flex; justify-content: center; align-items: center;">
 <ul id="component03" style="display: flex; justify-content: center; align-items: left;list-style: none;"  *ngFor="let enteredText of comicBook | search: searchText">
 <div  id="card-container">
-<li  id="component1"><img src="{{enteredText.pic}}" alt=""></li>
+    <a href="{{enteredText.url}}"><li  id="component1"><img src="{{enteredText.pic}}" alt=""></li></a>
 <li id="component2">{{enteredText.title}}</li>
 <li id="component3">{{enteredText.title2}}</li></div>
 </ul>
@@ -51,23 +52,27 @@
 <div *ngIf="!isDisplayed5" id="card4" style="display: flex; justify-content: center; align-items: center;">
 <ul id="component04" style="display: flex; justify-content: center; align-items: left;list-style: none;"  *ngFor="let enteredText of horror | search: searchText">
 <div  id="card-container">
-<li  id="component1"><img src="{{enteredText.pic}}" alt=""></li>
+    <a href="{{enteredText.url}}"><li  id="component1"><img src="{{enteredText.pic}}" alt=""></li></a>
 <li id="component2">{{enteredText.title}}</li>
 <li id="component3">{{enteredText.title2}}</li></div>
 </ul>
 </div>
 <div *ngIf="!isDisplayed6" id="card5" style="display: flex; justify-content: center; align-items: center;">
 <ul id="component05" style="display: flex; justify-content: center; align-items: left;list-style: none;"  *ngFor="let enteredText of criticallyAcclaimed | search: searchText">
-<div  id="card-container">
-<li  id="component1"><img src="{{enteredText.pic}}" alt=""></li>
+
+    <div  id="card-container">
+    
+<a href="{{enteredText.url}}"><li  id="component1"><img src={{enteredText.pic}} alt=""></li></a>
 <li id="component2">{{enteredText.title}}</li>
 <li id="component3">{{enteredText.title2}}</li></div>
 </ul>
 </div>
 <div *ngIf="!isDisplayed7" id="card6" style="display: flex; justify-content: center; align-items: center;">
     <ul id="component06" style="display: flex; justify-content: center; align-items: left;list-style: none;"  *ngFor="let enteredText of allMovies | search: searchText">
-    <div  id="card-container">
-    <li  id="component1"><img src="{{enteredText.pic}}" alt=""></li>
+
+        <div  id="card-container">
+        
+        <a href="{{enteredText.url}}"><li  id="component1"><img src="{{enteredText.pic}}" alt=""></li></a>
     <li id="component2">{{enteredText.title}}</li>
     <li id="component3">{{enteredText.title2}}</li></div>
     </ul>
