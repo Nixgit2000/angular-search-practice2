@@ -9,7 +9,7 @@
 <input id="input1" placeholder="Search by Title, Franchise, Actor..." style="caret-color: black;" [(ngModel)]="searchText">
 </div>
 
-
+<img src="../../assets/ASSETS/Nixflix2.png" style="position: fixed; left: 77.5vw; top: 79vh; height: 10vh; width: 13vw;">
 
 <div *ngIf="!isDisplayed" id="card" style="display: flex; justify-content: center; align-items: left;">
 <ul id="component0" style="display: flex; justify-content: center; align-items: left;list-style: none;"  *ngFor="let enteredText of fantasy | search: searchText">
