@@ -107,7 +107,7 @@
         display: block;
         margin: 1vh;
         border: 1px solid grey;
-        box-shadow: 2px 2px rgb(210, 210, 210);
+         box-shadow: 3px 3px rgb(210, 210, 210);
         overflow: hidden;
         width: 40vw;
         height: 30vh;
@@ -117,7 +117,7 @@
         display: block;
         margin: 1vh;
         border: 1px solid grey;
-        box-shadow: 2px 2px rgb(210, 210, 210);
+         box-shadow: 3px 3px rgb(210, 210, 210);
         overflow: hidden;
         width: 40vw;
         height: 30vh;
@@ -126,7 +126,7 @@
         display: block;
         margin: 1vh;
         border: 1px solid grey;
-        box-shadow: 2px 2px rgb(210, 210, 210);
+         box-shadow: 3px 3px rgb(210, 210, 210);
         overflow: hidden;
         width: 40vw;
         height: 30vh;
@@ -135,7 +135,7 @@
         display: block;
         margin: 1vh;
         border: 1px solid grey;
-        box-shadow: 2px 2px rgb(210, 210, 210);
+         box-shadow: 3px 3px rgb(210, 210, 210);
         overflow: hidden;
         width: 40vw;
         height: 30vh;
@@ -144,7 +144,7 @@
         display: block;
         margin: 1vh;
         border: 1px solid grey;
-        box-shadow: 2px 2px rgb(210, 210, 210);
+         box-shadow: 3px 3px rgb(210, 210, 210);
         overflow: hidden;
         width: 40vw;
         height: 30vh;
@@ -153,7 +153,7 @@
         display: block;
         margin: 1vh;
         border: 1px solid grey;
-        box-shadow: 2px 2px rgb(210, 210, 210);
+         box-shadow: 3px 3px rgb(210, 210, 210);
         overflow: hidden;
         width: 40vw;
         height: 30vh;
@@ -162,7 +162,7 @@
         display: block;
         margin: 1vh;
         border: 1px solid grey;
-        box-shadow: 2px 2px rgb(210, 210, 210);
+         box-shadow: 3px 3px rgb(210, 210, 210);
         overflow: hidden;
         width: 40vw;
         height: 30vh;
@@ -172,7 +172,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        border: 1px solid transparent;
+         ;
         height: 50%;
   
     }
@@ -180,14 +180,14 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        border: 1px solid transparent;
+         ;
         
     }
     #component2{
         display: flex;
         justify-content: center;
         align-items: center;
-        border: 1px solid transparent;
+         ;
         
     }
     #btn0 {
@@ -311,7 +311,7 @@
         display: block;
         margin: 1vh;
         border: 1px solid grey;
-        box-shadow: 2px 2px rgb(210, 210, 210);
+         box-shadow: 3px 3px rgb(210, 210, 210);
         overflow: hidden;
         width: 30vw;
         height: 30vh;
@@ -321,7 +321,7 @@
         display: block;
         margin: 1vh;
         border: 1px solid grey;
-        box-shadow: 2px 2px rgb(210, 210, 210);
+         box-shadow: 3px 3px rgb(210, 210, 210);
         overflow: hidden;
         width: 30vw;
         height: 30vh;
@@ -330,7 +330,7 @@
         display: block;
         margin: 1vh;
         border: 1px solid grey;
-        box-shadow: 2px 2px rgb(210, 210, 210);
+         box-shadow: 3px 3px rgb(210, 210, 210);
         overflow: hidden;
         width: 30vw;
         height: 30vh;
@@ -339,7 +339,7 @@
         display: block;
         margin: 1vh;
         border: 1px solid grey;
-        box-shadow: 2px 2px rgb(210, 210, 210);
+         box-shadow: 3px 3px rgb(210, 210, 210);
         overflow: hidden;
         width:30vw;
         height: 30vh;
@@ -348,7 +348,7 @@
         display: block;
         margin: 1vh;
         border: 1px solid grey;
-        box-shadow: 2px 2px rgb(210, 210, 210);
+         box-shadow: 3px 3px rgb(210, 210, 210);
         overflow: hidden;
         width: 30vw;
         height: 30vh;
@@ -357,7 +357,7 @@
         display: block;
         margin: 1vh;
         border: 1px solid grey;
-        box-shadow: 2px 2px rgb(210, 210, 210);
+         box-shadow: 3px 3px rgb(210, 210, 210);
         overflow: hidden;
         width: 30vw;
         height: 30vh;
@@ -366,7 +366,7 @@
         display: block;
         margin: 1vh;
         border: 1px solid grey;
-        box-shadow: 2px 2px rgb(210, 210, 210);
+         box-shadow: 3px 3px rgb(210, 210, 210);
         overflow: hidden;
         width: 30vw;
         height: 30vh;
@@ -376,7 +376,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        border: 1px solid transparent;
+         ;
         height: 50%;
   
     }
@@ -384,14 +384,14 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        border: 1px solid transparent;
+         ;
         
     }
     #component2{
         display: flex;
         justify-content: center;
         align-items: center;
-        border: 1px solid transparent;
+         ;
         
     }
     #btn0 {
@@ -515,7 +515,7 @@
         display: block;
         margin: 1vh;
         border: 1px solid grey;
-        box-shadow: 2px 2px rgb(210, 210, 210);
+         box-shadow: 3px 3px rgb(210, 210, 210);
         overflow: hidden;
         width: 18vw;
         height: 30vh;
@@ -525,7 +525,7 @@
         display: block;
         margin: 1vh;
         border: 1px solid grey;
-        box-shadow: 2px 2px rgb(210, 210, 210);
+         box-shadow: 3px 3px rgb(210, 210, 210);
         overflow: hidden;
         width: 18vw;
         height: 30vh;
@@ -534,7 +534,7 @@
         display: block;
         margin: 1vh;
         border: 1px solid grey;
-        box-shadow: 2px 2px rgb(210, 210, 210);
+         box-shadow: 3px 3px rgb(210, 210, 210);
         overflow: hidden;
         width: 18vw;
         height: 30vh;
@@ -543,7 +543,7 @@
         display: block;
         margin: 1vh;
         border: 1px solid grey;
-        box-shadow: 2px 2px rgb(210, 210, 210);
+         box-shadow: 3px 3px rgb(210, 210, 210);
         overflow: hidden;
         width: 18vw;
         height: 30vh;
@@ -552,7 +552,7 @@
         display: block;
         margin: 1vh;
         border: 1px solid grey;
-        box-shadow: 2px 2px rgb(210, 210, 210);
+         box-shadow: 3px 3px rgb(210, 210, 210);
         overflow: hidden;
         width: 18vw;
         height: 30vh;
@@ -561,7 +561,7 @@
         display: block;
         margin: 1vh;
         border: 1px solid grey;
-        box-shadow: 2px 2px rgb(210, 210, 210);
+         box-shadow: 3px 3px rgb(210, 210, 210);
         overflow: hidden;
         width: 18vw;
         height: 30vh;
@@ -570,7 +570,7 @@
         display: block;
         margin: 1vh;
         border: 1px solid grey;
-        box-shadow: 2px 2px rgb(210, 210, 210);
+         box-shadow: 3px 3px rgb(210, 210, 210);
         overflow: hidden;
         width: 18vw;
         height: 30vh;
@@ -580,7 +580,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        border: 1px solid transparent;
+         ;
         height: 50%;
   
     }
@@ -588,14 +588,14 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        border: 1px solid transparent;
+         ;
         
     }
     #component2{
         display: flex;
         justify-content: center;
         align-items: center;
-        border: 1px solid transparent;
+         ;
         
     }
     #btn0 {
@@ -718,7 +718,7 @@
         display: block;
         margin: 1vh;
         border: 1px solid grey;
-        box-shadow: 2px 2px rgb(210, 210, 210);
+         box-shadow: 3px 3px rgb(210, 210, 210);
         overflow: hidden;
         width: 18vw;
         height: 30vh;
@@ -728,7 +728,7 @@
         display: block;
         margin: 1vh;
         border: 1px solid grey;
-        box-shadow: 2px 2px rgb(210, 210, 210);
+         box-shadow: 3px 3px rgb(210, 210, 210);
         overflow: hidden;
         width: 18vw;
         height: 30vh;
@@ -737,7 +737,7 @@
         display: block;
         margin: 1vh;
         border: 1px solid grey;
-        box-shadow: 2px 2px rgb(210, 210, 210);
+         box-shadow: 3px 3px rgb(210, 210, 210);
         overflow: hidden;
         width: 18vw;
         height: 30vh;
@@ -746,7 +746,7 @@
         display: block;
         margin: 1vh;
         border: 1px solid grey;
-        box-shadow: 2px 2px rgb(210, 210, 210);
+         box-shadow: 3px 3px rgb(210, 210, 210);
         overflow: hidden;
         width: 18vw;
         height: 30vh;
@@ -755,7 +755,7 @@
         display: block;
         margin: 1vh;
         border: 1px solid grey;
-        box-shadow: 2px 2px rgb(210, 210, 210);
+         box-shadow: 3px 3px rgb(210, 210, 210);
         overflow: hidden;
         width: 18vw;
         height: 30vh;
@@ -764,7 +764,7 @@
         display: block;
         margin: 1vh;
         border: 1px solid grey;
-        box-shadow: 2px 2px rgb(210, 210, 210);
+         box-shadow: 3px 3px rgb(210, 210, 210);
         overflow: hidden;
         width: 18vw;
         height: 30vh;
@@ -773,7 +773,7 @@
         display: block;
         margin: 1vh;
         border: 1px solid grey;
-        box-shadow: 2px 2px rgb(210, 210, 210);
+         box-shadow: 3px 3px rgb(210, 210, 210);
         overflow: hidden;
         width: 18vw;
         height: 30vh;
@@ -783,7 +783,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        border: 1px solid transparent;
+         ;
         height: 50%;
   
     }
@@ -791,14 +791,14 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        border: 1px solid transparent;
+         ;
         
     }
     #component2{
         display: flex;
         justify-content: center;
         align-items: center;
-        border: 1px solid transparent;
+         ;
         
     }
     #btn0 {

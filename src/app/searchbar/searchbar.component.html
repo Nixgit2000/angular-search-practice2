@@ -4,7 +4,7 @@
 <button (click)="FilterScienceFiction()" id="btn2">SCIENCE-<br>FICTION</button>
 <button (click)="FilterAction()" id="btn3">ACTION</button>
 <button (click)="FilterComicBook()" id="btn4">COMIC<br>BOOK</button>
-<button (click)="FilterDrama()" id="btn5">DRAMA</button>
+<button (click)="FilterHorror()" id="btn5">HORROR</button>
 <button (click)="FilterCriticallyAcclaimed()" id="btn6">CRITICALLY<br>ACCLAIMED</button>
 <input id="input1" placeholder="Search by Title, Franchise, Actor..." style="caret-color: black;" [(ngModel)]="searchText">
 </div>
@@ -49,7 +49,7 @@
 </div>
 
 <div *ngIf="!isDisplayed5" id="card4" style="display: flex; justify-content: center; align-items: center;">
-<ul id="component04" style="display: flex; justify-content: center; align-items: left;list-style: none;"  *ngFor="let enteredText of drama | search: searchText">
+<ul id="component04" style="display: flex; justify-content: center; align-items: left;list-style: none;"  *ngFor="let enteredText of horror | search: searchText">
 <div  id="card-container">
 <li  id="component1"><img src="{{enteredText.pic}}" alt=""></li>
 <li id="component2">{{enteredText.title}}</li>

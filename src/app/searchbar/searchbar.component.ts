@@ -74,18 +74,81 @@ export class SearchbarComponent {
 
   ]
   action= [
-    {title: "", title2: "", font: "FB", fontSize: "2vw", fontSize2: "1.5vw", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/.png"},
+    {title: "Mission Impossible", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/MI1.png"},
+    {title: "Mission Impossible", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/MI2.png"},
+    {title: "Mission Impossible", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/MI3.png"},
+    {title: "Mission Impossible", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/MI4.png"},
+    {title: "Mission Impossible", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/MI5.png"},
+    {title: "Mission Impossible", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/MI6.png"},
+    {title: "John Wick", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/JW1.png"},
+    {title: "John Wick", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/JW2.png"},
+    {title: "John Wick", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/JW3.png"},
+    {title: "Die Hard", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/DH1.png"},
+    {title: "Die Hard", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/DH2.png"},
+    {title: "Die Hard", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/DH3.png"},
+    {title: "Die Hard", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/DH4.png"},
+    {title: "Die Hard", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/DH5.png"},
+    {title: "The Bourne Identity", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/JB1.png"},
+    {title: "The Bourne Identity", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/JB2.png"},
+    {title: "The Bourne Identity", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/JB3.png"},
+    {title: "The Bourne Identity", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/JB4.png"},
+    {title: "The Bourne Identity", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/JB5.png"},
   ]
   comicBook = [
-    {title: "", title2: "", font: "FB", fontSize: "2vw", fontSize2: "1.5vw", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/.png"},
+    {title: "The Avengers", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/TA1.png"},
+    {title: "The Avengers", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/TA2.png"},
+    {title: "The Avengers", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/TA3.png"},
+    {title: "The Avengers", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/TA4.png"},
+    {title: "Batman", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/B1.png"},
+    {title: "Batman", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/B2.png"},
+    {title: "Batman", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/B3.png"},
+    {title: "Spider-Man", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/SM1.png"},
+    {title: "Spider-Man", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/SM2.png"},
+    {title: "Spider-Man", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/SM3.png"},
+    {title: "The Amazing Spider-Man", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/TAS1.png"},
+    {title: "The Amazing Spider-Man", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/TAS2.png"},
+    {title: "X-Men", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/XM1.png"},
+    {title: "X-Men", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/XM2.png"},
+    {title: "X-Men", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/XM3.png"},
+    {title: "Kick-Ass", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/KA1.png"},
+    {title: "Kick-Ass", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/KA2.png"},
   ]  
-  drama = [
-    {title: "", title2: "", font: "FB", fontSize: "2vw", fontSize2: "1.5vw", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/.png"},
+  horror = [
+   
+    {title: "The Conjuring", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/C1.png"},
+    {title: "The Conjuring", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/C2.png"},  
+    {title: "The Conjuring", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/C3.png"},
+    {title: "Annabelle", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/AB1.png"},
+    {title: "Annabelle", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/AB2.png"},
+    {title: "Annabelle", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/AB3.png"},
+    {title: "The Shining", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/TS1.png"},
+    {title: "The Shining", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/TS2.png"},
+    {title: "Paranormal Activity", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/PA1.png"},
+    {title: "Paranormal Activity", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/PA2.png"},
+    {title: "Paranormal Activity", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/PA3.png"},
+    {title: "Paranormal Activity", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/PA4.png"},
+    {title: "The Exorcist", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/TE1.png"},
+    {title: "The Exorcist", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/TE2.png"},
+    {title: "The Exorcist", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/TE3.png"},
+    {title: "The Exorcist", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/TE4.png"},
+    {title: "The Exorcist", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/TE5.png"},
+
+
 
   ]  
   criticallyAcclaimed = [
-    {title: "", title2: "", font: "FB", fontSize: "2vw", fontSize2: "1.5vw", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/.png"},
 
+    {title: "The Royal Tenenbaums", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/RT1.png"},
+    {title: "The Grand Buhapest Hotel", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/RT2.png"},
+    {title: "Captain Fantastic", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/CF1.png"},
+    {title: "Into the Wild", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/CF2.png"},
+    {title: "Rudolph the Red Nosed Reindeer", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/RRNR1.png"},
+    {title: "Scrooge: A Christmas Carol", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/RRNR2.png"},
+    {title: "Office Space", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/OS1.png"},
+    {title: "Idiocracy", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/OS2.png"},
+    {title: "Hot Fuzz", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/SP1.png"},
+    {title: "At World's End", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/SP3.png"},
+    {title: "Shaun of the Dead", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/SP4.png"},
   ]
 
   allMovies = [
@@ -152,18 +215,74 @@ export class SearchbarComponent {
   
 
 //action
-      {title: "", title2: "", font: "FB", fontSize: "2vw", fontSize2: "1.5vw", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/.png"},
-
+{title: "Mission Impossible", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/MI1.png"},
+{title: "Mission Impossible", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/MI2.png"},
+{title: "Mission Impossible", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/MI3.png"},
+{title: "Mission Impossible", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/MI4.png"},
+{title: "Mission Impossible", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/MI5.png"},
+{title: "Mission Impossible", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/MI6.png"},
+{title: "John Wick", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/JW1.png"},
+{title: "John Wick", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/JW2.png"},
+{title: "John Wick", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/JW3.png"},
+{title: "Die Hard", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/DH1.png"},
+{title: "Die Hard", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/DH2.png"},
+{title: "Die Hard", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/DH3.png"},
+{title: "Die Hard", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/DH4.png"},
+{title: "Die Hard", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/DH5.png"},
+{title: "The Bourne Identity", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/JB1.png"},
+{title: "The Bourne Identity", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/JB2.png"},
+{title: "The Bourne Identity", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/JB3.png"},
+{title: "The Bourne Identity", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/JB4.png"},
+{title: "The Bourne Identity", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/JB5.png"},
 //comicbook
-      {title: "", title2: "", font: "FB", fontSize: "2vw", fontSize2: "1.5vw", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/.png"},
-//drama
-
-      {title: "", title2: "", font: "FB", fontSize: "2vw", fontSize2: "1.5vw", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/.png"},
+{title: "The Avengers", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/TA1.png"},
+{title: "The Avengers", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/TA2.png"},
+{title: "The Avengers", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/TA3.png"},
+{title: "The Avengers", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/TA4.png"},
+{title: "Batman", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/B1.png"},
+{title: "Batman", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/B2.png"},
+{title: "Batman", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/B3.png"},
+{title: "Spider-Man", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/SM1.png"},
+{title: "Spider-Man", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/SM2.png"},
+{title: "Spider-Man", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/SM3.png"},
+{title: "The Amazing Spider-Man", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/TAS1.png"},
+{title: "The Amazing Spider-Man", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/TAS2.png"},
+{title: "X-Men", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/XM1.png"},
+{title: "X-Men", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/XM2.png"},
+{title: "X-Men", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/XM3.png"},
+{title: "Kick-Ass", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/KA1.png"},
+{title: "Kick-Ass", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/KA2.png"},
+//horror
+{title: "The Conjuring", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/C1.png"},
+{title: "The Conjuring", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/C2.png"},  
+{title: "The Conjuring", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/C3.png"},
+{title: "Annabelle", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/AB1.png"},
+{title: "Annabelle", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/AB2.png"},
+{title: "Annabelle", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/AB3.png"},
+{title: "The Shining", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/TS1.png"},
+{title: "The Shining", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/TS2.png"},
+{title: "Paranormal Activity", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/PA1.png"},
+{title: "Paranormal Activity", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/PA2.png"},
+{title: "Paranormal Activity", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/PA3.png"},
+{title: "Paranormal Activity", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/PA4.png"},
+{title: "The Exorcist", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/TE1.png"},
+{title: "The Exorcist", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/TE2.png"},
+{title: "The Exorcist", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/TE3.png"},
+{title: "The Exorcist", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/TE4.png"},
+{title: "The Exorcist", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/TE5.png"},
 
     //criticallyAcclaimed 
-      {title: "", title2: "", font: "FB", fontSize: "2vw", fontSize2: "1.5vw", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/.png"},
-  
-
+    {title: "The Royal Tenenbaums", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/RT1.png"},
+    {title: "The Grand Buhapest Hotel", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/RT2.png"},
+    {title: "Captain Fantastic", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/CF1.png"},
+    {title: "Into the Wild", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/CF2.png"},
+    {title: "Rudolph the Red Nosed Reindeer", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/RRNR1.png"},
+    {title: "Scrooge: A Christmas Carol", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/RRNR2.png"},
+    {title: "Office Space", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/OS1.png"},
+    {title: "Idiocracy", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/OS2.png"},
+    {title: "Hot Fuzz", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/SP1.png"},
+    {title: "At World's End", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/SP3.png"},
+    {title: "Shaun of the Dead", title2: "", actor: "", backgroundPos: "center center",  pic: "../assets/ASSETS/SP4.png"},
     ]
 
 
@@ -216,7 +335,7 @@ export class SearchbarComponent {
     this.isDisplayed7 = true
   }
 
-  FilterDrama(){
+  FilterHorror(){
     this.isDisplayed = true
     this.isDisplayed2 = true
     this.isDisplayed3 = true
