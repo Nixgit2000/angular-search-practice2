@@ -64,3 +64,11 @@
 <li id="component3">{{enteredText.title2}}</li></div>
 </ul>
 </div>
+<div *ngIf="!isDisplayed7" id="card6" style="display: flex; justify-content: center; align-items: center;">
+    <ul id="component06" style="display: flex; justify-content: center; align-items: left;list-style: none;"  *ngFor="let enteredText of allMovies | search: searchText">
+    <div  id="card-container">
+    <li  id="component1"><img src="{{enteredText.pic}}" alt=""></li>
+    <li id="component2">{{enteredText.title}}</li>
+    <li id="component3">{{enteredText.title2}}</li></div>
+    </ul>
+    </div>

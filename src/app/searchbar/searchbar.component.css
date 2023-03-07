@@ -28,11 +28,21 @@
 [id*="btn6"] {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif9;
 }
-
+[id*="component2"] {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif9;
+    font-size: 1.5vh;
+    font-weight: bold;
+    color: rgb(80, 80, 80);
+}
+[id*="component3"] {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif9;
+    font-size:1.5vh;
+    color: grey;
+}
 @media (min-width: 481px) and (max-width: 767px) {
     #grid1 {
         display: grid;
-        grid-template-columns: repeat(20, 1fr);
+        grid-template-columns: repeat(22, 1fr);
         height: 5vh;
         color: grey;
         transition: .1s;
@@ -180,45 +190,51 @@
         border: 1px solid transparent;
         
     }
-    #btn1 {
+    #btn0 {
         color: grey;
         grid-column: 1 /span 2;
-        font-size: .9vw;
+        font-size: 1.5vw;
+        transition: .1s;
+    }
+    #btn1 {
+        color: grey;
+        grid-column: 3 /span 2;
+        font-size: 1.5vw;
         transition: .1s;
     }
     #btn2 {
         color: grey;
-        grid-column: 3 /span 2;
-        font-size: .7vw;
+        grid-column: 5 /span 2;
+        font-size: 1.5vw;
         transition: .1s;
     }
     #btn3 {
         color: grey;
-        grid-column: 5 /span 2;
-        font-size: .9vw;
+        grid-column: 7 /span 2;
+        font-size: 1.5vw;
         transition: .1s;
     }
     #btn4 {
         color: grey;
-        grid-column: 7 /span 2;
-        font-size: .7vw;
+        grid-column: 9 /span 2;
+        font-size: 1.5vw;
         transition: .1s;
     }
     #btn5 {
         color: grey;
-        grid-column: 9 /span 2;
-        font-size: .9vw;
+        grid-column: 11 /span 2;
+        font-size: 1.5vw;
         transition: .1s;
     }
     #btn6 {
         color: grey;
-        grid-column: 11 /span 2;
-        font-size: .7vw;
+        grid-column: 13 /span 2;
+        font-size: 1.5vw;
         transition: .1s;
     }
     #input1 {
         color: grey;
-        grid-column: 13 / span 8;
+        grid-column: 15 / span 8;
         font-size: .9vw;
         padding-left: 1vw;
         transition: .1s;
@@ -230,7 +246,7 @@
 @media (min-width: 768px) and (max-width: 1024px){
     #grid1 {
         display: grid;
-        grid-template-columns: repeat(20, 1fr);
+        grid-template-columns: repeat(22, 1fr);
         height: 5vh;
         color: grey;
         transition: .1s;
@@ -378,45 +394,51 @@
         border: 1px solid transparent;
         
     }
-    #btn1 {
+    #btn0 {
         color: grey;
         grid-column: 1 /span 2;
-        font-size: .9vw;
+        font-size: 1vw;
+        transition: .1s;
+    }
+    #btn1 {
+        color: grey;
+        grid-column: 3 /span 2;
+        font-size: 1vw;
         transition: .1s;
     }
     #btn2 {
         color: grey;
-        grid-column: 3 /span 2;
-        font-size: .7vw;
+        grid-column: 5 /span 2;
+        font-size: 1vw;
         transition: .1s;
     }
     #btn3 {
         color: grey;
-        grid-column: 5 /span 2;
-        font-size: .9vw;
+        grid-column: 7 /span 2;
+        font-size: 1vw;
         transition: .1s;
     }
     #btn4 {
         color: grey;
-        grid-column: 7 /span 2;
-        font-size: .7vw;
+        grid-column: 9 /span 2;
+        font-size: 1vw;
         transition: .1s;
     }
     #btn5 {
         color: grey;
-        grid-column: 9 /span 2;
-        font-size: .9vw;
+        grid-column: 11 /span 2;
+        font-size: 1vw;
         transition: .1s;
     }
     #btn6 {
         color: grey;
-        grid-column: 11 /span 2;
-        font-size: .7vw;
+        grid-column: 13 /span 2;
+        font-size: 1vw;
         transition: .1s;
     }
     #input1 {
         color: grey;
-        grid-column: 13 / span 8;
+        grid-column: 15 / span 8;
         font-size: .9vw;
         padding-left: 1vw;
         transition: .1s;
@@ -428,7 +450,7 @@
 @media (min-width: 1025px) and (max-width: 1280px){
     #grid1 {
         display: grid;
-        grid-template-columns: repeat(20, 1fr);
+        grid-template-columns: repeat(22, 1fr);
         height: 5vh;
         color: grey;
         transition: .1s;
@@ -576,45 +598,51 @@
         border: 1px solid transparent;
         
     }
-    #btn1 {
+    #btn0 {
         color: grey;
         grid-column: 1 /span 2;
-        font-size: .9vw;
+        font-size: 1vw;
+        transition: .1s;
+    }
+    #btn1 {
+        color: grey;
+        grid-column: 3 /span 2;
+        font-size: 1vw;
         transition: .1s;
     }
     #btn2 {
         color: grey;
-        grid-column: 3 /span 2;
-        font-size: .7vw;
+        grid-column: 5 /span 2;
+        font-size: 1vw;
         transition: .1s;
     }
     #btn3 {
         color: grey;
-        grid-column: 5 /span 2;
-        font-size: .9vw;
+        grid-column: 7 /span 2;
+        font-size: 1vw;
         transition: .1s;
     }
     #btn4 {
         color: grey;
-        grid-column: 7 /span 2;
-        font-size: .7vw;
+        grid-column: 9 /span 2;
+        font-size: 1vw;
         transition: .1s;
     }
     #btn5 {
         color: grey;
-        grid-column: 9 /span 2;
-        font-size: .9vw;
+        grid-column: 11 /span 2;
+        font-size: 1vw;
         transition: .1s;
     }
     #btn6 {
         color: grey;
-        grid-column: 11 /span 2;
-        font-size: .7vw;
+        grid-column: 13 /span 2;
+        font-size: 1vw;
         transition: .1s;
     }
     #input1 {
         color: grey;
-        grid-column: 13 / span 8;
+        grid-column: 15 / span 8;
         font-size: .9vw;
         padding-left: 1vw;
         transition: .1s;
@@ -776,43 +804,43 @@
     #btn0 {
         color: grey;
         grid-column: 1 /span 2;
-        font-size: .9vw;
+        font-size: 1vw;
         transition: .1s;
     }
     #btn1 {
         color: grey;
         grid-column:3 /span 2;
-        font-size: .9vw;
+        font-size: 1vw;
         transition: .1s;
     }
     #btn2 {
         color: grey;
         grid-column: 5 /span 2;
-        font-size: .7vw;
+        font-size: 1vw;
         transition: .1s;
     }
     #btn3 {
         color: grey;
         grid-column: 7 /span 2;
-        font-size: .9vw;
+        font-size: 1vw;
         transition: .1s;
     }
     #btn4 {
         color: grey;
         grid-column: 9 /span 2;
-        font-size: .7vw;
+        font-size: 1vw;
         transition: .1s;
     }
     #btn5 {
         color: grey;
         grid-column: 11 /span 2;
-        font-size: .9vw;
+        font-size: 1vw;
         transition: .1s;
     }
     #btn6 {
         color: grey;
         grid-column: 13 /span 2;
-        font-size: .7vw;
+        font-size: 1vw;
         transition: .1s;
     }
     #input1 {
