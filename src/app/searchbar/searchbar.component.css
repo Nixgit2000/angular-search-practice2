@@ -2,7 +2,7 @@
 
 @font-face { font-family: AV; src: url('../../assets/ASSETS/AvengersFont/AvengersFont.otf'); } 
 @font-face { font-family: SW; src: url('../../assets/ASSETS/StarWarsFont/SW.otf') } 
-@font-face { font-family: FB; src: url('../../assets/ASSETS/HarryPotterFont/HP.TTF'); } 
+@font-face { font-family: HP; src: url('../../assets/ASSETS/HarryPotterFont/HP.TTF'); } 
 @font-face { font-family: TF; src: url('../../assets/ASSETS/TransformersFont/TransformersFont.ttf'); } 
 
 [id*="card"] {
@@ -10,13 +10,13 @@
 }
 
 [id*="btn1"] {
-    font-family: AV;
+    font-family: HP;
 }
 [id*="btn2"] {
     font-family: SW;
 }
 [id*="btn3"] {
-    font-family: FB;
+    font-family: AV;
 }
 [id*="btn4"] {
     font-family: TF;
@@ -34,20 +34,55 @@
         display: grid;
         grid-template-columns: repeat(20, 1fr);
         height: 5vh;
-        font-size: 1vw;
         color: grey;
         transition: .1s;
     }
     #card-container{
         width: 100vw;
-        height: 50vh;
+        min-height: 50vh;
         overflow-X: hidden;
     
     }
     #card {
         display: inline-flex;
         flex-wrap: wrap;
-        height: 30vh;
+        height: auto;
+        margin: 1vh;
+    }
+    #card1 {
+        display: inline-flex;
+        flex-wrap: wrap;
+        height: auto;
+        margin: 1vh;
+    }
+    #card2 {
+        display: inline-flex;
+        flex-wrap: wrap;
+        height: auto;
+        margin: 1vh;
+    }
+    #card3 {
+        display: inline-flex;
+        flex-wrap: wrap;
+        height: auto;
+        margin: 1vh;
+    }
+    #card4 {
+        display: inline-flex;
+        flex-wrap: wrap;
+        height: auto;
+        margin: 1vh;
+    }
+    #card5 {
+        display: inline-flex;
+        flex-wrap: wrap;
+        height: auto;
+        margin: 1vh;
+    }    
+    #card6 {
+        display: inline-flex;
+        flex-wrap: wrap;
+        height: auto;
         margin: 1vh;
     }
     img {
@@ -59,280 +94,140 @@
     }
 
     #component0 {
+        display: block;
+        margin: 1vh;
         border: 1px solid grey;
         box-shadow: 2px 2px rgb(210, 210, 210);
+        overflow: hidden;
+        width: 40vw;
+        height: 30vh;
+    }    
+    
+    #component01 {
+        display: block;
         margin: 1vh;
-
+        border: 1px solid grey;
+        box-shadow: 2px 2px rgb(210, 210, 210);
+        overflow: hidden;
+        width: 40vw;
+        height: 30vh;
+    }
+    #component02 {
+        display: block;
+        margin: 1vh;
+        border: 1px solid grey;
+        box-shadow: 2px 2px rgb(210, 210, 210);
+        overflow: hidden;
+        width: 40vw;
+        height: 30vh;
+    } 
+    #component03 {
+        display: block;
+        margin: 1vh;
+        border: 1px solid grey;
+        box-shadow: 2px 2px rgb(210, 210, 210);
+        overflow: hidden;
+        width: 40vw;
+        height: 30vh;
+    }
+    #component04 {
+        display: block;
+        margin: 1vh;
+        border: 1px solid grey;
+        box-shadow: 2px 2px rgb(210, 210, 210);
+        overflow: hidden;
+        width: 40vw;
+        height: 30vh;
+    }
+    #component05 {
+        display: block;
+        margin: 1vh;
+        border: 1px solid grey;
+        box-shadow: 2px 2px rgb(210, 210, 210);
+        overflow: hidden;
+        width: 40vw;
+        height: 30vh;
+    }
+    #component06 {
+        display: block;
+        margin: 1vh;
+        border: 1px solid grey;
+        box-shadow: 2px 2px rgb(210, 210, 210);
         overflow: hidden;
         width: 40vw;
         height: 30vh;
     }
     #component1{
-
-
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
         border: 1px solid transparent;
         height: 50%;
+  
     }
     #component3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         border: 1px solid transparent;
         
     }
     #component2{
-
-        border: 1px solid orangetransparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid transparent;
         
     }
-    
     #btn1 {
         color: grey;
         grid-column: 1 /span 2;
-        font-size: 2vw;
+        font-size: .9vw;
         transition: .1s;
     }
     #btn2 {
         color: grey;
         grid-column: 3 /span 2;
-        font-size: 1.5vw;
+        font-size: .7vw;
         transition: .1s;
     }
     #btn3 {
         color: grey;
         grid-column: 5 /span 2;
-        font-size: 2vw;
+        font-size: .9vw;
         transition: .1s;
     }
     #btn4 {
         color: grey;
         grid-column: 7 /span 2;
-        font-size: 1.5vw;
+        font-size: .7vw;
         transition: .1s;
     }
     #btn5 {
         color: grey;
         grid-column: 9 /span 2;
-        font-size: 2vw;
+        font-size: .9vw;
         transition: .1s;
     }
     #btn6 {
         color: grey;
         grid-column: 11 /span 2;
-        font-size: 1.5vw;
+        font-size: .7vw;
         transition: .1s;
     }
     #input1 {
         color: grey;
         grid-column: 13 / span 8;
-        font-size: 2vw;
+        font-size: .9vw;
         padding-left: 1vw;
         transition: .1s;
     }
-    
 
 }
 
 
 @media (min-width: 768px) and (max-width: 1024px){
-    #grid1 {
-        display: grid;
-        grid-template-columns: repeat(20, 1fr);
-        height: 5vh;
-        font-size: 1vw;
-        color: grey;
-        transition: .1s;
-    }
-    #card-container{
-        width: 100vw;
-        height: 50vh;
-        overflow-X: hidden;
-    
-    }
-    #card {
-        display: inline-flex;
-        flex-wrap: wrap;
-        height: 30vh;
-        margin: 1vh;
-    }
-    img {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-        width: auto;
-    }
-
-    #component0 {
-        border: 1px solid grey;
-        box-shadow: 2px 2px rgb(210, 210, 210);
-        margin: 1vh;
-
-        overflow: hidden;
-        width: 25vw;
-        height: 30vh;
-    }
-    #component1{
-
-
-        border: 1px solid transparent;
-        height: 50%;
-    }
-    #component3{
-        border: 1px solid transparent;
-        
-    }
-    #component2{
-
-        border: 1px solid orangetransparent;
-        
-    }
-    #btn1 {
-        color: grey;
-        grid-column: 1 /span 2;
-        font-size: 1.5w;
-        transition: .1s;
-    }
-    #btn2 {
-        color: grey;
-        grid-column: 3 /span 2;
-        font-size: 1.2vw;
-        transition: .1s;
-    }
-    #btn3 {
-        color: grey;
-        grid-column: 5 /span 2;
-        font-size: 1.5vw;
-        transition: .1s;
-    }
-    #btn4 {
-        color: grey;
-        grid-column: 7 /span 2;
-        font-size: 1.2vw;
-        transition: .1s;
-    }
-    #btn5 {
-        color: grey;
-        grid-column: 9 /span 2;
-        font-size: 1.5vw;
-        transition: .1s;
-    }
-    #btn6 {
-        color: grey;
-        grid-column: 11 /span 2;
-        font-size: 1.2vw;
-        transition: .1s;
-    }
-    #input1 {
-        color: grey;
-        grid-column: 13 / span 8;
-        font-size: 1.5vw;
-        padding-left: 1vw;
-        transition: .1s;
-    }
-
-}
-
-
-@media (min-width: 1025px) and (max-width: 1280px){
-    #grid1 {
-        display: grid;
-        grid-template-columns: repeat(20, 1fr);
-        height: 5vh;
-        transition: 1s;
-        color: grey;
-        transition: .1s;
-    }
-    #card-container{
-        width: 100vw;
-        height: 50vh;
-        overflow-X: hidden;
-    
-    }
-    #card {
-        display: inline-flex;
-        flex-wrap: wrap;
-        height: 30vh;
-        margin: 1vh;
-    }
-    img {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-        width: auto;
-    }
-
-    #component0 {
-        border: 1px solid grey;
-        box-shadow: 2px 2px rgb(210, 210, 210);
-        margin: 1vh;
-     
-        overflow: hidden;
-        width: 19.4vw;
-        height: 30vh;
-    }
-    #component1{
-
-
-        border: 1px solid transparent;
-        height: 50%;
-    }
-    #component3{
-        border: 1px solid transparent;
-        
-    }
-    #component2{
-
-        border: 1px solid orangetransparent;
-        
-    }
-    
-    #btn1 {
-        color: grey;
-        grid-column: 1 /span 2;
-        font-size: 1.3vw;
-        transition: .1s;
-    }
-    #btn2 {
-        color: grey;
-        grid-column: 3 /span 2;
-        font-size: 1vw;
-        transition: .1s;
-    }
-    #btn3 {
-        color: grey;
-        grid-column: 5 /span 2;
-        font-size: 1.3vw;
-        transition: .1s;
-    }
-    #btn4 {
-        color: grey;
-        grid-column: 7 /span 2;
-        font-size: 1vw;
-        transition: .1s;
-    }
-    #btn5 {
-        color: grey;
-        grid-column: 9 /span 2;
-        font-size: 1.3vw;
-        transition: .1s;
-    }
-    #btn6 {
-        color: grey;
-        grid-column: 11 /span 2;
-        font-size: 1vw;
-        transition: .1s;
-    }
-    #input1 {
-        color: grey;
-        grid-column: 13 / span 8;
-        font-size: 1.3vw;
-        padding-left: 1vw;
-        transition: .1s;
-    }
-
-}
-
-
-@media (min-width: 1281px) {
     #grid1 {
         display: grid;
         grid-template-columns: repeat(20, 1fr);
@@ -349,7 +244,43 @@
     #card {
         display: inline-flex;
         flex-wrap: wrap;
-        height: 30vh;
+        height: auto;
+        margin: 1vh;
+    }
+    #card1 {
+        display: inline-flex;
+        flex-wrap: wrap;
+        height: auto;
+        margin: 1vh;
+    }
+    #card2 {
+        display: inline-flex;
+        flex-wrap: wrap;
+        height: auto;
+        margin: 1vh;
+    }
+    #card3 {
+        display: inline-flex;
+        flex-wrap: wrap;
+        height: auto;
+        margin: 1vh;
+    }
+    #card4 {
+        display: inline-flex;
+        flex-wrap: wrap;
+        height: auto;
+        margin: 1vh;
+    }
+    #card5 {
+        display: inline-flex;
+        flex-wrap: wrap;
+        height: auto;
+        margin: 1vh;
+    }    
+    #card6 {
+        display: inline-flex;
+        flex-wrap: wrap;
+        height: auto;
         margin: 1vh;
     }
     img {
@@ -361,7 +292,260 @@
     }
 
     #component0 {
+        display: block;
+        margin: 1vh;
+        border: 1px solid grey;
+        box-shadow: 2px 2px rgb(210, 210, 210);
+        overflow: hidden;
+        width: 30vw;
+        height: 30vh;
+    }    
+    
+    #component01 {
+        display: block;
+        margin: 1vh;
+        border: 1px solid grey;
+        box-shadow: 2px 2px rgb(210, 210, 210);
+        overflow: hidden;
+        width: 30vw;
+        height: 30vh;
+    }
+    #component02 {
+        display: block;
+        margin: 1vh;
+        border: 1px solid grey;
+        box-shadow: 2px 2px rgb(210, 210, 210);
+        overflow: hidden;
+        width: 30vw;
+        height: 30vh;
+    } 
+    #component03 {
+        display: block;
+        margin: 1vh;
+        border: 1px solid grey;
+        box-shadow: 2px 2px rgb(210, 210, 210);
+        overflow: hidden;
+        width:30vw;
+        height: 30vh;
+    }
+    #component04 {
+        display: block;
+        margin: 1vh;
+        border: 1px solid grey;
+        box-shadow: 2px 2px rgb(210, 210, 210);
+        overflow: hidden;
+        width: 30vw;
+        height: 30vh;
+    }
+    #component05 {
+        display: block;
+        margin: 1vh;
+        border: 1px solid grey;
+        box-shadow: 2px 2px rgb(210, 210, 210);
+        overflow: hidden;
+        width: 30vw;
+        height: 30vh;
+    }
+    #component06 {
+        display: block;
+        margin: 1vh;
+        border: 1px solid grey;
+        box-shadow: 2px 2px rgb(210, 210, 210);
+        overflow: hidden;
+        width: 30vw;
+        height: 30vh;
+    }
+    #component1{
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid transparent;
+        height: 50%;
+  
+    }
+    #component3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid transparent;
         
+    }
+    #component2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid transparent;
+        
+    }
+    #btn1 {
+        color: grey;
+        grid-column: 1 /span 2;
+        font-size: .9vw;
+        transition: .1s;
+    }
+    #btn2 {
+        color: grey;
+        grid-column: 3 /span 2;
+        font-size: .7vw;
+        transition: .1s;
+    }
+    #btn3 {
+        color: grey;
+        grid-column: 5 /span 2;
+        font-size: .9vw;
+        transition: .1s;
+    }
+    #btn4 {
+        color: grey;
+        grid-column: 7 /span 2;
+        font-size: .7vw;
+        transition: .1s;
+    }
+    #btn5 {
+        color: grey;
+        grid-column: 9 /span 2;
+        font-size: .9vw;
+        transition: .1s;
+    }
+    #btn6 {
+        color: grey;
+        grid-column: 11 /span 2;
+        font-size: .7vw;
+        transition: .1s;
+    }
+    #input1 {
+        color: grey;
+        grid-column: 13 / span 8;
+        font-size: .9vw;
+        padding-left: 1vw;
+        transition: .1s;
+    }
+
+}
+
+
+@media (min-width: 1025px) and (max-width: 1280px){
+    #grid1 {
+        display: grid;
+        grid-template-columns: repeat(20, 1fr);
+        height: 5vh;
+        color: grey;
+        transition: .1s;
+    }
+    #card-container{
+        width: 100vw;
+        min-height: 50vh;
+        overflow-X: hidden;
+    
+    }
+    #card {
+        display: inline-flex;
+        flex-wrap: wrap;
+        height: auto;
+        margin: 1vh;
+    }
+    #card1 {
+        display: inline-flex;
+        flex-wrap: wrap;
+        height: auto;
+        margin: 1vh;
+    }
+    #card2 {
+        display: inline-flex;
+        flex-wrap: wrap;
+        height: auto;
+        margin: 1vh;
+    }
+    #card3 {
+        display: inline-flex;
+        flex-wrap: wrap;
+        height: auto;
+        margin: 1vh;
+    }
+    #card4 {
+        display: inline-flex;
+        flex-wrap: wrap;
+        height: auto;
+        margin: 1vh;
+    }
+    #card5 {
+        display: inline-flex;
+        flex-wrap: wrap;
+        height: auto;
+        margin: 1vh;
+    }    
+    #card6 {
+        display: inline-flex;
+        flex-wrap: wrap;
+        height: auto;
+        margin: 1vh;
+    }
+    img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: auto;
+    }
+
+    #component0 {
+        display: block;
+        margin: 1vh;
+        border: 1px solid grey;
+        box-shadow: 2px 2px rgb(210, 210, 210);
+        overflow: hidden;
+        width: 18vw;
+        height: 30vh;
+    }    
+    
+    #component01 {
+        display: block;
+        margin: 1vh;
+        border: 1px solid grey;
+        box-shadow: 2px 2px rgb(210, 210, 210);
+        overflow: hidden;
+        width: 18vw;
+        height: 30vh;
+    }
+    #component02 {
+        display: block;
+        margin: 1vh;
+        border: 1px solid grey;
+        box-shadow: 2px 2px rgb(210, 210, 210);
+        overflow: hidden;
+        width: 18vw;
+        height: 30vh;
+    } 
+    #component03 {
+        display: block;
+        margin: 1vh;
+        border: 1px solid grey;
+        box-shadow: 2px 2px rgb(210, 210, 210);
+        overflow: hidden;
+        width: 18vw;
+        height: 30vh;
+    }
+    #component04 {
+        display: block;
+        margin: 1vh;
+        border: 1px solid grey;
+        box-shadow: 2px 2px rgb(210, 210, 210);
+        overflow: hidden;
+        width: 18vw;
+        height: 30vh;
+    }
+    #component05 {
+        display: block;
+        margin: 1vh;
+        border: 1px solid grey;
+        box-shadow: 2px 2px rgb(210, 210, 210);
+        overflow: hidden;
+        width: 18vw;
+        height: 30vh;
+    }
+    #component06 {
+        display: block;
         margin: 1vh;
         border: 1px solid grey;
         box-shadow: 2px 2px rgb(210, 210, 210);
@@ -431,6 +615,209 @@
     #input1 {
         color: grey;
         grid-column: 13 / span 8;
+        font-size: .9vw;
+        padding-left: 1vw;
+        transition: .1s;
+    }
+}
+
+
+@media (min-width: 1281px) {
+    #grid1 {
+        display: grid;
+        grid-template-columns: repeat(22, 1fr);
+        height: 5vh;
+        color: grey;
+        transition: .1s;
+    }
+    #card-container{
+        width: 100vw;
+        min-height: 50vh;
+        overflow-X: hidden;
+    
+    }
+    #card {
+        display: inline-flex;
+        flex-wrap: wrap;
+        height: auto;
+        margin: 1vh;
+    }
+    #card1 {
+        display: inline-flex;
+        flex-wrap: wrap;
+        height: auto;
+        margin: 1vh;
+    }
+    #card2 {
+        display: inline-flex;
+        flex-wrap: wrap;
+        height: auto;
+        margin: 1vh;
+    }
+    #card3 {
+        display: inline-flex;
+        flex-wrap: wrap;
+        height: auto;
+        margin: 1vh;
+    }
+    #card4 {
+        display: inline-flex;
+        flex-wrap: wrap;
+        height: auto;
+        margin: 1vh;
+    }
+    #card5 {
+        display: inline-flex;
+        flex-wrap: wrap;
+        height: auto;
+        margin: 1vh;
+    }    
+    #card6 {
+        display: inline-flex;
+        flex-wrap: wrap;
+        height: auto;
+        margin: 1vh;
+    }
+    img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: auto;
+    }
+
+    #component0 {
+        display: block;
+        margin: 1vh;
+        border: 1px solid grey;
+        box-shadow: 2px 2px rgb(210, 210, 210);
+        overflow: hidden;
+        width: 18vw;
+        height: 30vh;
+    }    
+    
+    #component01 {
+        display: block;
+        margin: 1vh;
+        border: 1px solid grey;
+        box-shadow: 2px 2px rgb(210, 210, 210);
+        overflow: hidden;
+        width: 18vw;
+        height: 30vh;
+    }
+    #component02 {
+        display: block;
+        margin: 1vh;
+        border: 1px solid grey;
+        box-shadow: 2px 2px rgb(210, 210, 210);
+        overflow: hidden;
+        width: 18vw;
+        height: 30vh;
+    } 
+    #component03 {
+        display: block;
+        margin: 1vh;
+        border: 1px solid grey;
+        box-shadow: 2px 2px rgb(210, 210, 210);
+        overflow: hidden;
+        width: 18vw;
+        height: 30vh;
+    }
+    #component04 {
+        display: block;
+        margin: 1vh;
+        border: 1px solid grey;
+        box-shadow: 2px 2px rgb(210, 210, 210);
+        overflow: hidden;
+        width: 18vw;
+        height: 30vh;
+    }
+    #component05 {
+        display: block;
+        margin: 1vh;
+        border: 1px solid grey;
+        box-shadow: 2px 2px rgb(210, 210, 210);
+        overflow: hidden;
+        width: 18vw;
+        height: 30vh;
+    }
+    #component06 {
+        display: block;
+        margin: 1vh;
+        border: 1px solid grey;
+        box-shadow: 2px 2px rgb(210, 210, 210);
+        overflow: hidden;
+        width: 18vw;
+        height: 30vh;
+    }
+    #component1{
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid transparent;
+        height: 50%;
+  
+    }
+    #component3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid transparent;
+        
+    }
+    #component2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid transparent;
+        
+    }
+    #btn0 {
+        color: grey;
+        grid-column: 1 /span 2;
+        font-size: .9vw;
+        transition: .1s;
+    }
+    #btn1 {
+        color: grey;
+        grid-column:3 /span 2;
+        font-size: .9vw;
+        transition: .1s;
+    }
+    #btn2 {
+        color: grey;
+        grid-column: 5 /span 2;
+        font-size: .7vw;
+        transition: .1s;
+    }
+    #btn3 {
+        color: grey;
+        grid-column: 7 /span 2;
+        font-size: .9vw;
+        transition: .1s;
+    }
+    #btn4 {
+        color: grey;
+        grid-column: 9 /span 2;
+        font-size: .7vw;
+        transition: .1s;
+    }
+    #btn5 {
+        color: grey;
+        grid-column: 11 /span 2;
+        font-size: .9vw;
+        transition: .1s;
+    }
+    #btn6 {
+        color: grey;
+        grid-column: 13 /span 2;
+        font-size: .7vw;
+        transition: .1s;
+    }
+    #input1 {
+        color: grey;
+        grid-column: 15 / span 8;
         font-size: .9vw;
         padding-left: 1vw;
         transition: .1s;

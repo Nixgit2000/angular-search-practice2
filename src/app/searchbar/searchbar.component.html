@@ -1,22 +1,66 @@
 <div id="grid1">
-<button id="btn1">ACTION</button>
-<button id="btn2">SCIENCE-<br>FICTION</button>
-<button id="btn3">FANTASY</button>
-<button id="btn4">COMIC<br>BOOK</button>
-<button id="btn5">DRAMA</button>
-<button id="btn6">CRITICALLY<br>ACCLAIMED</button>
+<button (click)="FilterAll()" id="btn0">ALL</button>
+<button (click)="FilterFantasy()" id="btn1">FANTASY</button>
+<button (click)="FilterScienceFiction()" id="btn2">SCIENCE-<br>FICTION</button>
+<button (click)="FilterAction()" id="btn3">ACTION</button>
+<button (click)="FilterComicBook()" id="btn4">COMIC<br>BOOK</button>
+<button (click)="FilterDrama()" id="btn5">DRAMA</button>
+<button (click)="FilterCriticallyAcclaimed()" id="btn6">CRITICALLY<br>ACCLAIMED</button>
 <input id="input1" placeholder="Search by Title, Franchise, Actor..." style="caret-color: black;" [(ngModel)]="searchText">
 </div>
 
-<div style="display: flex; justify-content: center; align-items: left;">
 
-<div id="card" style="display: flex; justify-content: center; align-items: left;">
-<ul style="display: flex; justify-content: center; align-items: left;list-style: none;" id="component0" *ngFor="let enteredText of data | search: searchText">
-    <div  id="card-container">
-    <li  id="component1"><img src="{{enteredText.pic}}" alt=""></li>
-    <li id="component2">{{enteredText.title}}</li>
-    <li id="component3">{{enteredText.title2}}</li></div>
+
+<div *ngIf="!isDisplayed" id="card" style="display: flex; justify-content: center; align-items: left;">
+<ul id="component0" style="display: flex; justify-content: center; align-items: left;list-style: none;"  *ngFor="let enteredText of fantasy | search: searchText">
+
+<div  id="card-container">
+<li  id="component1"><img src="{{enteredText.pic}}" alt=""></li>
+<li id="component2">{{enteredText.title}}</li>
+<li id="component3">{{enteredText.title2}}</li></div>
 </ul>
 </div>
 
+<div *ngIf="!isDisplayed2" id="card1" style="display: flex; justify-content: center; align-items: center;">
+<ul id="component01" style="display: flex; justify-content: center; align-items: left;list-style: none;"  *ngFor="let enteredText of sciFi | search: searchText">
+<div  id="card-container">
+<li  id="component1"><img src="{{enteredText.pic}}" alt=""></li>
+<li id="component2">{{enteredText.title}}</li>
+<li id="component3">{{enteredText.title2}}</li></div>
+</ul>
+</div>
+
+
+<div *ngIf="!isDisplayed3" id="card2" style="display: flex; justify-content: center; align-items: center;">
+<ul id="component02" style="display: flex; justify-content: center; align-items: left;list-style: none;"  *ngFor="let enteredText of action | search: searchText">
+<div  id="card-container">
+<li  id="component1"><img src="{{enteredText.pic}}" alt=""></li>
+<li id="component2">{{enteredText.title}}</li>
+<li id="component3">{{enteredText.title2}}</li></div>
+</ul>
+</div>
+<div *ngIf="!isDisplayed4" id="card3" style="display: flex; justify-content: center; align-items: center;">
+<ul id="component03" style="display: flex; justify-content: center; align-items: left;list-style: none;"  *ngFor="let enteredText of comicBook | search: searchText">
+<div  id="card-container">
+<li  id="component1"><img src="{{enteredText.pic}}" alt=""></li>
+<li id="component2">{{enteredText.title}}</li>
+<li id="component3">{{enteredText.title2}}</li></div>
+</ul>
+</div>
+
+<div *ngIf="!isDisplayed5" id="card4" style="display: flex; justify-content: center; align-items: center;">
+<ul id="component04" style="display: flex; justify-content: center; align-items: left;list-style: none;"  *ngFor="let enteredText of drama | search: searchText">
+<div  id="card-container">
+<li  id="component1"><img src="{{enteredText.pic}}" alt=""></li>
+<li id="component2">{{enteredText.title}}</li>
+<li id="component3">{{enteredText.title2}}</li></div>
+</ul>
+</div>
+<div *ngIf="!isDisplayed6" id="card5" style="display: flex; justify-content: center; align-items: center;">
+<ul id="component05" style="display: flex; justify-content: center; align-items: left;list-style: none;"  *ngFor="let enteredText of criticallyAcclaimed | search: searchText">
+<div  id="card-container">
+<li  id="component1"><img src="{{enteredText.pic}}" alt=""></li>
+<li id="component2">{{enteredText.title}}</li>
+<li id="component3">{{enteredText.title2}}</li></div>
+</ul>
 </div>
