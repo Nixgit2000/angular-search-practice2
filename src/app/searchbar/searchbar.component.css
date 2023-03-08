@@ -39,7 +39,7 @@
     font-size:1.5vh;
     color: rgb(189,189,189);
 }
-@media (min-width: 4px) and (max-width: 767px) {
+@media (min-width: 4px) and (max-width: 750px) {
     #grid1 {
         display: grid;
         grid-template-columns: repeat(22, 1fr);
@@ -243,7 +243,7 @@
 }
 
 
-@media (min-width: 768px) and (max-width: 1024px){
+@media (min-width: 751px) and (max-width: 1024px){
     #grid1 {
         display: grid;
         grid-template-columns: repeat(22, 1fr);
