@@ -39,7 +39,7 @@
     font-size:1.5vh;
     color: rgb(189,189,189);
 }
-@media (min-width: 4px) and (max-width: 750px) {
+@media (min-width: 4px) and (max-width: 751px) {
     #grid1 {
         display: grid;
         grid-template-columns: repeat(22, 1fr);
@@ -180,14 +180,14 @@
         display: flex;
         justify-content: center;
         align-items: center;
-         ;
+        color: rgb(83, 83, 83);
         
     }
     #component2{
         display: flex;
         justify-content: center;
         align-items: center;
-         ;
+        color: rgb(83, 83, 83);
         
     }
     #btn0 {
@@ -243,7 +243,7 @@
 }
 
 
-@media (min-width: 751px) and (max-width: 1024px){
+@media (min-width: 751px) and (max-width: 1025px){
     #grid1 {
         display: grid;
         grid-template-columns: repeat(22, 1fr);
@@ -384,14 +384,16 @@
         display: flex;
         justify-content: center;
         align-items: center;
-         ;
+        color: rgb(83, 83, 83);
+         
         
     }
     #component2{
         display: flex;
         justify-content: center;
         align-items: center;
-         ;
+        color: rgb(83, 83, 83);
+         
         
     }
     #btn0 {
@@ -447,7 +449,7 @@
 }
 
 
-@media (min-width: 1025px) and (max-width: 1280px){
+@media (min-width: 1025px) and (max-width: 1281px){
     #grid1 {
         display: grid;
         grid-template-columns: repeat(22, 1fr);
@@ -588,14 +590,14 @@
         display: flex;
         justify-content: center;
         align-items: center;
-         ;
+        color: rgb(83, 83, 83);
         
     }
     #component2{
         display: flex;
         justify-content: center;
         align-items: center;
-         ;
+        color: rgb(83, 83, 83);
         
     }
     #btn0 {
@@ -791,6 +793,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        color: rgb(83, 83, 83);
          ;
         
     }
@@ -798,6 +801,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        color: rgb(83, 83, 83);
          ;
         
     }
