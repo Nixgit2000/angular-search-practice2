@@ -1,6 +1,6 @@
 
 
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 4px) and (max-width: 751px) {
 #container1 {
 
 height: 36vh;
@@ -13,7 +13,7 @@ align-items: center;
 }
 
 
-@media (min-width: 768px) and (max-width: 1024px){
+@media (min-width: 751px) and (max-width: 1025px){
 #container1 {
 
 height: 39vh;
@@ -26,9 +26,9 @@ align-items: center;
 }
 
 
-@media (min-width: 1025px) and (max-width: 1280px){
+@media (min-width: 1025px) and (max-width: 1281px){
 #container1 {
-min-height: 300px;
+
 height: 42vh;
 overflow: hidden;
 display: flex;

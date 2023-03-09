@@ -39,6 +39,9 @@
     font-size:1.5vh;
     color: rgb(189,189,189);
 }
+
+
+
 @media (min-width: 4px) and (max-width: 751px) {
     #grid1 {
         display: grid;
@@ -57,43 +60,43 @@
         display: inline-flex;
         flex-wrap: wrap;
         height: auto;
-        margin: 1vh;
+        margin: 5vh;
     }
     #card1 {
         display: inline-flex;
         flex-wrap: wrap;
         height: auto;
-        margin: 1vh;
+        margin: 5vh;
     }
     #card2 {
         display: inline-flex;
         flex-wrap: wrap;
         height: auto;
-        margin: 1vh;
+        margin: 5vh;
     }
     #card3 {
         display: inline-flex;
         flex-wrap: wrap;
         height: auto;
-        margin: 1vh;
+        margin: 5vh;
     }
     #card4 {
         display: inline-flex;
         flex-wrap: wrap;
         height: auto;
-        margin: 1vh;
+        margin: 5vh;
     }
     #card5 {
         display: inline-flex;
         flex-wrap: wrap;
         height: auto;
-        margin: 1vh;
+        margin: 5vh;
     }    
     #card6 {
         display: inline-flex;
         flex-wrap: wrap;
         height: auto;
-        margin: 1vh;
+        margin: 5vh;
     }
     img {
         display: flex;
@@ -261,43 +264,43 @@
         display: inline-flex;
         flex-wrap: wrap;
         height: auto;
-        margin: 1vh;
+        margin: 4vh;
     }
     #card1 {
         display: inline-flex;
         flex-wrap: wrap;
         height: auto;
-        margin: 1vh;
+        margin: 4vh;
     }
     #card2 {
         display: inline-flex;
         flex-wrap: wrap;
         height: auto;
-        margin: 1vh;
+        margin: 4vh;
     }
     #card3 {
         display: inline-flex;
         flex-wrap: wrap;
         height: auto;
-        margin: 1vh;
+        margin: 4vh;
     }
     #card4 {
         display: inline-flex;
         flex-wrap: wrap;
         height: auto;
-        margin: 1vh;
+        margin: 4vh;
     }
     #card5 {
         display: inline-flex;
         flex-wrap: wrap;
         height: auto;
-        margin: 1vh;
+        margin: 4vh;
     }    
     #card6 {
         display: inline-flex;
         flex-wrap: wrap;
         height: auto;
-        margin: 1vh;
+        margin: 4vh;
     }
     img {
         display: flex;
@@ -313,7 +316,7 @@
         border: 1px solid rgb(189,189,189);border-radius: 2%;
          box-shadow: 3px 3px rgb(189, 189, 189);
         overflow: hidden;
-        width: 30vw;
+        width: 26vw;
         height: 30vh;
     }    
     
@@ -323,7 +326,7 @@
         border: 1px solid rgb(189,189,189);border-radius: 2%;
          box-shadow: 3px 3px rgb(189, 189, 189);
         overflow: hidden;
-        width: 30vw;
+        width: 26vw;
         height: 30vh;
     }
     #component02 {
@@ -332,7 +335,7 @@
         border: 1px solid rgb(189,189,189);border-radius: 2%;
          box-shadow: 3px 3px rgb(189, 189, 189);
         overflow: hidden;
-        width: 30vw;
+        width: 26vw;
         height: 30vh;
     } 
     #component03 {
@@ -341,7 +344,7 @@
         border: 1px solid rgb(189,189,189);border-radius: 2%;
          box-shadow: 3px 3px rgb(189, 189, 189);
         overflow: hidden;
-        width:30vw;
+        width:26vw;
         height: 30vh;
     }
     #component04 {
@@ -350,7 +353,7 @@
         border: 1px solid rgb(189,189,189);border-radius: 2%;
          box-shadow: 3px 3px rgb(189, 189, 189);
         overflow: hidden;
-        width: 30vw;
+        width: 26vw;
         height: 30vh;
     }
     #component05 {
@@ -359,7 +362,7 @@
         border: 1px solid rgb(189,189,189);border-radius: 2%;
          box-shadow: 3px 3px rgb(189, 189, 189);
         overflow: hidden;
-        width: 30vw;
+        width: 26vw;
         height: 30vh;
     }
     #component06 {
@@ -368,7 +371,7 @@
         border: 1px solid rgb(189,189,189);border-radius: 2%;
          box-shadow: 3px 3px rgb(189, 189, 189);
         overflow: hidden;
-        width: 30vw;
+        width: 26vw;
         height: 30vh;
     }
     #component1{
@@ -467,43 +470,43 @@
         display: inline-flex;
         flex-wrap: wrap;
         height: auto;
-        margin: 1vh;
+        margin: 3vh;
     }
     #card1 {
         display: inline-flex;
         flex-wrap: wrap;
         height: auto;
-        margin: 1vh;
+        margin: 3vh;
     }
     #card2 {
         display: inline-flex;
         flex-wrap: wrap;
         height: auto;
-        margin: 1vh;
+        margin: 3vh;
     }
     #card3 {
         display: inline-flex;
         flex-wrap: wrap;
         height: auto;
-        margin: 1vh;
+        margin: 3vh;
     }
     #card4 {
         display: inline-flex;
         flex-wrap: wrap;
         height: auto;
-        margin: 1vh;
+        margin: 3vh;
     }
     #card5 {
         display: inline-flex;
         flex-wrap: wrap;
         height: auto;
-        margin: 1vh;
+        margin: 3vh;
     }    
     #card6 {
         display: inline-flex;
         flex-wrap: wrap;
         height: auto;
-        margin: 1vh;
+        margin: 3vh;
     }
     img {
         display: flex;
@@ -519,7 +522,7 @@
         border: 1px solid rgb(189,189,189);border-radius: 2%;
          box-shadow: 3px 3px rgb(189, 189, 189);
         overflow: hidden;
-        width: 18vw;
+        width: 21vw;
         height: 30vh;
     }    
     
@@ -529,7 +532,7 @@
         border: 1px solid rgb(189,189,189);border-radius: 2%;
          box-shadow: 3px 3px rgb(189, 189, 189);
         overflow: hidden;
-        width: 18vw;
+        width: 21vw;
         height: 30vh;
     }
     #component02 {
@@ -538,7 +541,7 @@
         border: 1px solid rgb(189,189,189);border-radius: 2%;
          box-shadow: 3px 3px rgb(189, 189, 189);
         overflow: hidden;
-        width: 18vw;
+        width: 21vw;
         height: 30vh;
     } 
     #component03 {
@@ -547,7 +550,7 @@
         border: 1px solid rgb(189,189,189);border-radius: 2%;
          box-shadow: 3px 3px rgb(189, 189, 189);
         overflow: hidden;
-        width: 18vw;
+        width: 21vw;
         height: 30vh;
     }
     #component04 {
@@ -556,7 +559,7 @@
         border: 1px solid rgb(189,189,189);border-radius: 2%;
          box-shadow: 3px 3px rgb(189, 189, 189);
         overflow: hidden;
-        width: 18vw;
+        width: 21vw;
         height: 30vh;
     }
     #component05 {
@@ -565,7 +568,7 @@
         border: 1px solid rgb(189,189,189);border-radius: 2%;
          box-shadow: 3px 3px rgb(189, 189, 189);
         overflow: hidden;
-        width: 18vw;
+        width: 21vw;
         height: 30vh;
     }
     #component06 {
@@ -574,7 +577,7 @@
         border: 1px solid rgb(189,189,189);border-radius: 2%;
          box-shadow: 3px 3px rgb(189, 189, 189);
         overflow: hidden;
-        width: 18vw;
+        width: 21vw;
         height: 30vh;
     }
     #component1{
@@ -670,43 +673,43 @@
         display: inline-flex;
         flex-wrap: wrap;
         height: auto;
-        margin: 1vh;
+        margin: 4vh;
     }
     #card1 {
         display: inline-flex;
         flex-wrap: wrap;
         height: auto;
-        margin: 1vh;
+        margin: 4vh;
     }
     #card2 {
         display: inline-flex;
         flex-wrap: wrap;
         height: auto;
-        margin: 1vh;
+        margin: 4vh;
     }
     #card3 {
         display: inline-flex;
         flex-wrap: wrap;
         height: auto;
-        margin: 1vh;
+        margin: 4vh;
     }
     #card4 {
         display: inline-flex;
         flex-wrap: wrap;
         height: auto;
-        margin: 1vh;
+        margin: 4vh;
     }
     #card5 {
         display: inline-flex;
         flex-wrap: wrap;
         height: auto;
-        margin: 1vh;
+        margin: 4vh;
     }    
     #card6 {
         display: inline-flex;
         flex-wrap: wrap;
         height: auto;
-        margin: 1vh;
+        margin: 4vh;
     }
     img {
         display: flex;
@@ -722,7 +725,7 @@
         border: 1px solid rgb(189,189,189);border-radius: 2%;
          box-shadow: 3px 3px rgb(189, 189, 189);
         overflow: hidden;
-        width: 18vw;
+        width: 16vw;
         height: 30vh;
     }    
     
@@ -732,7 +735,7 @@
         border: 1px solid rgb(189,189,189);border-radius: 2%;
          box-shadow: 3px 3px rgb(189, 189, 189);
         overflow: hidden;
-        width: 18vw;
+        width: 16vw;
         height: 30vh;
     }
     #component02 {
@@ -741,7 +744,7 @@
         border: 1px solid rgb(189,189,189);border-radius: 2%;
          box-shadow: 3px 3px rgb(189, 189, 189);
         overflow: hidden;
-        width: 18vw;
+        width: 16vw;
         height: 30vh;
     } 
     #component03 {
@@ -750,7 +753,7 @@
         border: 1px solid rgb(189,189,189);border-radius: 2%;
          box-shadow: 3px 3px rgb(189, 189, 189);
         overflow: hidden;
-        width: 18vw;
+        width: 16vw;
         height: 30vh;
     }
     #component04 {
@@ -759,7 +762,7 @@
         border: 1px solid rgb(189,189,189);border-radius: 2%;
          box-shadow: 3px 3px rgb(189, 189, 189);
         overflow: hidden;
-        width: 18vw;
+        width: 16vw;
         height: 30vh;
     }
     #component05 {
@@ -768,7 +771,7 @@
         border: 1px solid rgb(189,189,189);border-radius: 2%;
          box-shadow: 3px 3px rgb(189, 189, 189);
         overflow: hidden;
-        width: 18vw;
+        width: 16vw;
         height: 30vh;
     }
     #component06 {
@@ -777,7 +780,7 @@
         border: 1px solid rgb(189,189,189);border-radius: 2%;
          box-shadow: 3px 3px rgb(189, 189, 189);
         overflow: hidden;
-        width: 18vw;
+        width: 16vw;
         height: 30vh;
     }
     #component1{
